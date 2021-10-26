@@ -1,0 +1,150 @@
+:root{
+    --tateti-border-color: black;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #eee;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+h2{
+    display: block;
+    padding: 10px;
+}
+
+.divCompleto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+/* tbody{
+    display: flex;
+    /* flex-direction: column; 
+} */
+
+.fila1, .fila2, .fila3{
+    display: flex;
+}
+
+
+
+
+.fila1 div, .fila2 div, .fila3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    width: 60px;
+    height: 60px;
+    font-size:50px;
+    font-weight: bold;
+    
+
+    
+}
+
+.cartel{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+
+/* estilo de los bordes del tateti */
+.celda11{
+    border-right: 4px solid var(--tateti-border-color);
+    border-bottom: 4px solid var(--tateti-border-color);
+}
+.celda12{
+    border-left: 4px solid var(--tateti-border-color);
+    border-right: 4px solid var(--tateti-border-color);
+    border-bottom: 4px solid var(--tateti-border-color);
+}
+.celda13{
+    border-left: 4px solid var(--tateti-border-color);
+    border-bottom: 4px solid var(--tateti-border-color);
+}
+
+.celda21{
+    border-top: 4px solid var(--tateti-border-color);
+    border-right: 4px solid var(--tateti-border-color);
+    border-bottom: 4px solid var(--tateti-border-color);
+}
+
+.celda22{
+    border: 4px solid var(--tateti-border-color);
+}
+
+.celda23{
+    border-top: 4px solid var(--tateti-border-color);
+    border-left: 4px solid var(--tateti-border-color);
+    border-bottom: 4px solid var(--tateti-border-color);
+}
+
+.celda31{
+    border-right: 4px solid var(--tateti-border-color);
+    border-top: 4px solid var(--tateti-border-color);
+}
+.celda32{
+    border-left: 4px solid var(--tateti-border-color);
+    border-right: 4px solid var(--tateti-border-color);
+    border-top: 4px solid var(--tateti-border-color);
+}
+.celda33{
+    border-left: 4px solid var(--tateti-border-color);
+    border-top: 4px solid var(--tateti-border-color);
+}
+
+
+
+
+/* estilo tanto del circulo como de la x */
+
+.circle{
+    color: rgb(60, 253, 60);
+}
+
+.cross{
+    color:red;
+    font-size: 75px;
+}
+
+
+/* estilo del boton */
+
+button{
+    background-color: #ccc;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* table div:hover{
+    background-color: black;
+} */
